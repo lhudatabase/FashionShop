@@ -89,3 +89,10 @@ C:\Users\TNV_UX305 Gold\Desktop\FashionShop\FashionShop\obj\Debug\FashionShop.cs
 C:\Users\TNV_UX305 Gold\Desktop\FashionShop\FashionShop\obj\Debug\FashionShop.csproj.CopyComplete
 C:\Users\TNV_UX305 Gold\Desktop\FashionShop\FashionShop\obj\Debug\FashionShop.dll
 C:\Users\TNV_UX305 Gold\Desktop\FashionShop\FashionShop\obj\Debug\FashionShop.pdb
+C:\Users\TNV_UX305 Gold\Desktop\FashionShop\FashionShop\bin\Models.dll
+C:\Users\TNV_UX305 Gold\Desktop\FashionShop\FashionShop\bin\EntityFramework.dll
+C:\Users\TNV_UX305 Gold\Desktop\FashionShop\FashionShop\bin\Models.pdb
+C:\Users\TNV_UX305 Gold\Desktop\FashionShop\FashionShop\bin\Models.dll.config
+C:\Users\TNV_UX305 Gold\Desktop\FashionShop\FashionShop\bin\EntityFramework.xml
+C:\Users\TNV_UX305 Gold\Desktop\FashionShop\FashionShop\bin\EntityFramework.SqlServer.dll
+C:\Users\TNV_UX305 Gold\Desktop\FashionShop\FashionShop\bin\EntityFramework.SqlServer.xml

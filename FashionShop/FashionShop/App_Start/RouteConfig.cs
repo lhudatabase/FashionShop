@@ -31,6 +31,19 @@ namespace FashionShop
                url: "contact",
                defaults: new { controller = "Shop", action = "Contact", id = UrlParameter.Optional }
            );
+
+            routes.MapRoute(
+               name: "Checkout",
+               url: "checkout",
+               defaults: new { controller = "Shop", action = "Checkout", id = UrlParameter.Optional }
+           );
+
+            routes.MapRoute(
+               name: "Cart",
+               url: "cart",
+               defaults: new { controller = "Shop", action = "Cart", id = UrlParameter.Optional }
+           );
+
             #endregion
 
             routes.MapRoute(
