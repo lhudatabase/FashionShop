@@ -360,11 +360,18 @@
                     @RenderSection("AdminMenu", required: false)
 
                 </ul>
+                @if (TempData["AlertMessage"] != null)
+                {
+                    <div id="AlertBox" class="alert @TempData["AlertType"] hide">
+                        @TempData["AlertMessage"]
 
+                    </div>
+                }
                 @RenderBody()
                 <!-- set Renderbody is here
 
                 <div class="row-fluid"></div>
+
 
                 -->
             </div><!--/row-->
@@ -458,8 +465,11 @@
 
     <script src="~/Assets/Admin/js/retina.js"></script>
     <script src="~/Assets/Admin/js/custom.js"></script>
+
+    <script src="/Scripts/jquery.unobtrusive-ajax.min.js"></script>
     <!-- end: JavaScript-->
 
+    @RenderSection("jsFooter", required: false)
 </body>
 </html>
 

@@ -1,5 +1,7 @@
 ﻿using FashionShop.Areas.Admin.Code;
 using FashionShop.Areas.Admin.Models;
+using FashionShop.Common;
+using Model.Dao;
 using Models;
 using System;
 using System.Collections.Generic;
@@ -14,28 +16,45 @@ namespace FashionShop.Areas.Admin.Controllers
     {
         // GET: Admin/Login
 
-        [HttpGet]
         public ActionResult Index()
         {
             return View();
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Index(LoginModel model)
+        public ActionResult Login(LoginModel model)
         {
-            //var result = new AccountModel().Login(model.UserName, model.Password);
-            if (Membership.ValidateUser(model.UserName, model.Password) && ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                //SessionHelper.SetSession(new UserSession() { UserName = model.UserName });
-                FormsAuthentication.SetAuthCookie(model.UserName, model.RememberMe);
-                return RedirectToAction("Index", "Home");
+                var dao = new UserDao();
+                var result = dao.Login(model.UserName, MaHoaMD5.MD5Hash(model.Password));
+                if (result == 1)
+                {
+                    var user = dao.GetById(model.UserName);
+                    var userSession = new UserLogin();
+                    userSession.UserName = user.UserName;
+                    userSession.UserID = user.ID;
+
+                    Session.Add(CommonConstants.USER_SESSION, userSession);
+                    return RedirectToAction("Index", "User");
+                }
+                else if (result == 0)
+                {
+                    ModelState.AddModelError("", "Wrong User.");
+                }
+                else if (result == -1)
+                {
+                    ModelState.AddModelError("", "User Is Blocked.");
+                }
+                else if (result == -2)
+                {
+                    ModelState.AddModelError("", "Wrong PassWord.");
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Can't Understand...");
+                }
             }
-            else
-            {
-                ModelState.AddModelError("", "Username or password is incorrect. Please try again.");
-            }
-            return View(model);
+            return View("Index");
         }
     }
 }

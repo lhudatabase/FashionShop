@@ -10,3 +10,17 @@ C:\Users\TNV_UX305 Gold\Desktop\FashionShop\Models\obj\Debug\Models.csproj.CoreC
 C:\Users\TNV_UX305 Gold\Desktop\FashionShop\Models\obj\Debug\Models.csproj.CopyComplete
 C:\Users\TNV_UX305 Gold\Desktop\FashionShop\Models\obj\Debug\Models.dll
 C:\Users\TNV_UX305 Gold\Desktop\FashionShop\Models\obj\Debug\Models.pdb
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\bin\Debug\Models.dll.config
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\bin\Debug\Models.dll
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\bin\Debug\Models.pdb
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\bin\Debug\EntityFramework.dll
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\bin\Debug\PagedList.dll
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\bin\Debug\PagedList.Mvc.dll
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\bin\Debug\EntityFramework.xml
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\bin\Debug\PagedList.xml
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\bin\Debug\PagedList.Mvc.xml
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\obj\Debug\Models.dll
+C:\Users\hai le\Desktop\FashionShop\FashionShop\Models\obj\Debug\Models.pdb
