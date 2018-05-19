@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace FashionShop.Areas.Admin.Controllers
 {
-    public class AdminController : Controller
+    public class AdminController : BaseController
     {
         [Authorize]
         // GET: Admin/Admin
