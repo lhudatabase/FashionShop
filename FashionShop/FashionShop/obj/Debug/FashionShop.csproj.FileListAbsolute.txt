@@ -195,105 +195,102 @@ C:\Users\hai le\Desktop\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.Web
 C:\Users\hai le\Desktop\FashionShop\FashionShop\FashionShop\obj\Debug\FashionShop.csprojResolveAssemblyReference.cache
 C:\Users\hai le\Desktop\FashionShop\FashionShop\FashionShop\obj\Debug\FashionShop.dll
 C:\Users\hai le\Desktop\FashionShop\FashionShop\FashionShop\obj\Debug\FashionShop.pdb
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\ApplicationInsights.config
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\FashionShop.dll.config
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\FashionShop.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\FashionShop.pdb
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\csc.exe
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\csc.exe.config
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\csc.rsp
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\csi.exe
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\csi.exe.config
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\csi.rsp
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.AppContext.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Console.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Diagnostics.Process.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.IO.Compression.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.IO.Pipes.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.Claims.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Threading.Thread.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.ValueTuple.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Xml.XPath.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\vbc.exe
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\vbc.exe.config
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\vbc.rsp
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\VBCSCompiler.exe
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Antlr3.Runtime.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\EntityFramework.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\EntityFramework.SqlServer.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.Web.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.ApplicationInsights.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Models.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Newtonsoft.Json.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\PagedList.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\PagedList.Mvc.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.Helpers.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.Mvc.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.Optimization.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.Razor.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.WebPages.Deployment.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.WebPages.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.WebPages.Razor.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\WebGrease.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Models.pdb
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Models.dll.config
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\EntityFramework.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\EntityFramework.SqlServer.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\PagedList.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\PagedList.Mvc.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.Helpers.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.Mvc.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.Optimization.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.Razor.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.WebPages.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.WebPages.Deployment.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\System.Web.WebPages.Razor.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Antlr3.Runtime.pdb
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Newtonsoft.Json.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.ApplicationInsights.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.Web.xml
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\obj\Debug\FashionShop.csprojResolveAssemblyReference.cache
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\obj\Debug\FashionShop.csproj.CoreCompileInputs.cache
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\obj\Debug\FashionShop.csproj.CopyComplete
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\obj\Debug\FashionShop.dll
-C:\Users\TNV_UX305 Gold\Downloads\FashionShop\FashionShop\FashionShop\obj\Debug\FashionShop.pdb
+D:\FashionShop\FashionShop\FashionShop\bin\ApplicationInsights.config
+D:\FashionShop\FashionShop\FashionShop\bin\FashionShop.dll.config
+D:\FashionShop\FashionShop\FashionShop\bin\FashionShop.dll
+D:\FashionShop\FashionShop\FashionShop\bin\FashionShop.pdb
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\csc.exe
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\csc.exe.config
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\csc.rsp
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\csi.exe
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\csi.exe.config
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\csi.rsp
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.AppContext.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Collections.Immutable.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Console.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Diagnostics.Process.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.IO.Compression.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.IO.FileSystem.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.IO.Pipes.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.AccessControl.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.Claims.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Security.Principal.Windows.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Threading.Thread.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.ValueTuple.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Xml.XPath.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\vbc.exe
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\vbc.exe.config
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\vbc.rsp
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\VBCSCompiler.exe
+D:\FashionShop\FashionShop\FashionShop\bin\roslyn\VBCSCompiler.exe.config
+D:\FashionShop\FashionShop\FashionShop\bin\Antlr3.Runtime.dll
+D:\FashionShop\FashionShop\FashionShop\bin\EntityFramework.dll
+D:\FashionShop\FashionShop\FashionShop\bin\EntityFramework.SqlServer.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.Agent.Intercept.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.DependencyCollector.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.Web.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.WindowsServer.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.ApplicationInsights.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.Web.Infrastructure.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Models.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Newtonsoft.Json.dll
+D:\FashionShop\FashionShop\FashionShop\bin\PagedList.dll
+D:\FashionShop\FashionShop\FashionShop\bin\PagedList.Mvc.dll
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.Helpers.dll
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.Mvc.dll
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.Optimization.dll
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.Razor.dll
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.WebPages.Deployment.dll
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.WebPages.dll
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.WebPages.Razor.dll
+D:\FashionShop\FashionShop\FashionShop\bin\WebGrease.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Models.pdb
+D:\FashionShop\FashionShop\FashionShop\bin\EntityFramework.xml
+D:\FashionShop\FashionShop\FashionShop\bin\EntityFramework.SqlServer.xml
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FashionShop\FashionShop\FashionShop\bin\PagedList.xml
+D:\FashionShop\FashionShop\FashionShop\bin\PagedList.Mvc.xml
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.Helpers.xml
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.Mvc.xml
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.Optimization.xml
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.Razor.xml
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.WebPages.xml
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.WebPages.Deployment.xml
+D:\FashionShop\FashionShop\FashionShop\bin\System.Web.WebPages.Razor.xml
+D:\FashionShop\FashionShop\FashionShop\bin\Antlr3.Runtime.pdb
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.ApplicationInsights.xml
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.DependencyCollector.xml
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.WindowsServer.xml
+D:\FashionShop\FashionShop\FashionShop\bin\Microsoft.AI.Web.xml
+D:\FashionShop\FashionShop\FashionShop\obj\Debug\FashionShop.csprojResolveAssemblyReference.cache
+D:\FashionShop\FashionShop\FashionShop\obj\Debug\FashionShop.dll
+D:\FashionShop\FashionShop\FashionShop\obj\Debug\FashionShop.pdb
+D:\FashionShop\FashionShop\FashionShop\bin\Newtonsoft.Json.xml

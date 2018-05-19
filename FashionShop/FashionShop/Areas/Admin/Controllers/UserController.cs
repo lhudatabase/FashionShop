@@ -1,4 +1,5 @@
-﻿using FashionShop.Common;
+﻿using FashionShop.Areas.Admin.Models;
+using FashionShop.Common;
 using Model.Dao;
 using Models.Framework;
 using System;
@@ -24,26 +25,46 @@ namespace FashionShop.Areas.Admin.Controllers
         {
             return View();
         }
+
         [HttpPost]
-        public ActionResult Create(User user)
+        public ActionResult Create(UserInfoModel model)
         {
             if (ModelState.IsValid)
             {
                 var dao = new UserDao();
-                var encryptedMd5 = MaHoaMD5.MD5Hash(user.Password);
-                user.Password = encryptedMd5;
-                long id = dao.Insert(user);
-                if (id > 0)
+                if (dao.CheckUserName(model.UserName))
                 {
-                    SetAlert("Created User Compeled", "success");
-                    return RedirectToAction("Index", "User");
+                    ModelState.AddModelError("", "User is Used");
+                }
+                else if (dao.CheckEmail(model.Email))
+                {
+                    ModelState.AddModelError("", "Email is used");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "ERROR");
+                    var user = new User();
+                    user.UserName = model.UserName;
+                    user.Name = model.Name;
+                    user.Password = MaHoaMD5.MD5Hash(model.Password);
+                    user.Phone = model.Phone;
+                    user.Email = model.Email;
+                    user.Address = model.Address;
+                    user.CreatedDate = DateTime.Now;
+                    user.Status = true;
+                    var result = dao.Insert(user);
+                    if (result > 0)
+                    {
+                        ViewBag.Success = "Create Success";
+                        model = new UserInfoModel();
+                        return RedirectToAction("Index", "User");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Error");
+                    }
                 }
             }
-            return View("Index");
+            return View(model);
         }
         public ActionResult Edit(int id)
         {

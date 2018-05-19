@@ -44,6 +44,7 @@ namespace Model.Dao
                 product.CreatedBy = entity.CreatedBy;
                 product.Status = entity.Status;
                 product.TopHot = entity.TopHot;
+                product.Status = entity.Status;
                 db.SaveChanges();
                 return true;
             }
@@ -76,6 +77,22 @@ namespace Model.Dao
         public Product GetById(string ProductName)
         {
             return db.Products.SingleOrDefault(x => x.Name == ProductName);
+        }
+
+        public bool Delete(int id)
+        {
+            try
+            {
+                var product = db.Products.Find(id);
+                db.Products.Remove(product);
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
         }
 
     }

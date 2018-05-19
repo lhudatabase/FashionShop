@@ -1,0 +1,65 @@
+﻿@model PagedList.IPagedList<Models.Framework.Order>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@section AdminMenu
+{
+    <i class="icon-angle-right"></i>
+    <li><a href="users-account">Order manage</a></li>
+}
+
+
+<div class="row-fluid sortable">
+    <div class="box span12">
+        <div class="box-header" data-original-title>
+            <h2><i class="halflings-icon white user"></i><span class="break"></span>Orders</h2>
+            <div class="box-icon">
+                <a href="#" class="btn-setting"><i class="halflings-icon white wrench"></i></a>
+                <a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
+                <a href="#" class="btn-close"><i class="halflings-icon white remove"></i></a>
+            </div>
+        </div>
+        <div class="box-content">
+            <table class="table table-striped table-bordered bootstrap-datatable datatable">
+                <thead>
+                    <tr>
+                        <th>ShipName</th>
+                        <th>ShipEmail</th>
+                        <th>ShipPhone</th>
+                        <th>ShipAddress</th>
+                        <th>CreateDate</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr id="row_@item.ID">
+                            <td>@item.ShipName </td>
+                            <td class="center">@item.ShipEmail</td>
+                            <td class="center">@item.ShipMobile</td>
+                            <td class="center">@item.ShipAddress</td>
+                            <td class="center">@item.CreatedDate</td>
+                          
+                            <td class="center">
+                                <a href="/Admin/Order/Edit/@item.ID">Edit</a>
+                                ||
+                                @Ajax.ActionLink("Delete", "Delete", new { @id = item.ID }, new AjaxOptions
+                           {
+                               Confirm = "Are you sure? ",
+                               OnComplete = "$('#row_" + @item.ID + "').remove()",
+                               HttpMethod = "Delete"
+                           })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div><!--/span-->
+
+</div><!--/row-->

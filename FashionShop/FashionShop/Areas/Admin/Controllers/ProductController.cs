@@ -36,7 +36,7 @@ namespace FashionShop.Areas.Admin.Controllers
                 if (id > 0)
                 {
                     SetAlert("Created Product Compeled", "success");
-                    return RedirectToAction("Index", "User");
+                    return RedirectToAction("Index", "Product");
                 }
                 else
                 {
@@ -64,7 +64,7 @@ namespace FashionShop.Areas.Admin.Controllers
                 if (result)
                 {
                     SetAlert("Edited User Compeled.", "success");
-                    return RedirectToAction("Index", "User");
+                    return RedirectToAction("Index", "Product");
                 }
                 else
                 {
@@ -72,6 +72,12 @@ namespace FashionShop.Areas.Admin.Controllers
                 }
             }
             return View("Index");
+        }
+        [HttpDelete]
+        public ActionResult Delete(int id)
+        {
+            new ProductDao().Delete(id);
+            return RedirectToAction("Index");
         }
     }
 }

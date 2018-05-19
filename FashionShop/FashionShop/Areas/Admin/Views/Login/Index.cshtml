@@ -24,7 +24,7 @@
                         @Html.ValidationSummary(true, null, new { @class = "label" })
                         <div class="group">
                             <label for="user" class="label">Username</label>
-                            @Html.TextBoxFor(model => model.UserName, new { @id = "user", @type = "text", @class = "input" })
+                            @Html.TextBoxFor(model => model.UserName, new { @id = "user", @type = "text", @class = "input", @autofocus = "autofocus" })
                             <!--<input id="user" type="text" class="input">-->
                         </div>
                         <div class="group">

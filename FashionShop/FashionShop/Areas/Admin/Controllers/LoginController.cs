@@ -35,7 +35,7 @@ namespace FashionShop.Areas.Admin.Controllers
                     userSession.UserID = user.ID;
 
                     Session.Add(CommonConstants.USER_SESSION, userSession);
-                    return RedirectToAction("Index", "User");
+                    return RedirectToAction("Dashboard", "Admin");
                 }
                 else if (result == 0)
                 {
