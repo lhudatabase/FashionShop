@@ -52,7 +52,7 @@
                             <td class="center">@item.Email</td>
                             <td class="center">@item.Phone</td>
                             <td class="center">
-                                <a href="#" class="btn-active" data-id="@item.ID">@Html.Raw(item.Status ? "<strong>Active</strong>" : "Blocked")</a>
+                                <a href="#" class="btn-active btn btn-success" data-id="@item.ID">@Html.Raw(item.Status ? "<strong>Active</strong>" : "Blocked")</a>
                             </td>
                             <td class="center">
                                 <a href="/Admin/User/Edit/@item.ID">Edit</a>

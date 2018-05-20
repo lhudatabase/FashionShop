@@ -34,6 +34,7 @@ namespace Model.Dao
                     {
                         user.Password = entity.Password;
                     }
+                    user.Phone = entity.Phone;
                     user.Address = entity.Address;
                     user.Email = entity.Email;
                     user.ModifiedBy = entity.ModifiedBy;

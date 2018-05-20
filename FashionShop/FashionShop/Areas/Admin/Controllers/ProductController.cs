@@ -26,13 +26,31 @@ namespace FashionShop.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+        [ValidateInput(false)]
+
         public ActionResult Create(Product product)
         {
             if (ModelState.IsValid)
             {
                 var dao = new ProductDao();
-                
-                long id = dao.Insert(product);
+                var proDuct = new Product();
+                proDuct.Name = product.Name;
+                proDuct.Code = product.Code;
+                proDuct.MetaTitle = product.MetaTitle;
+                proDuct.Description = product.Description;
+                proDuct.Image = product.Image;
+                proDuct.Price = product.Price;
+                proDuct.IncludedVAT = product.IncludedVAT;
+                proDuct.Quantity = product.Quantity;
+                proDuct.CategoryID = product.CategoryID;
+                proDuct.Detail = product.Detail;
+                proDuct.Warranty = product.Warranty;
+                proDuct.CreatedDate = DateTime.Now;
+                proDuct.CreatedBy = product.CreatedBy;
+                proDuct.TopHot = product.TopHot;
+                proDuct.Status = product.Status;
+                long id = dao.Insert(proDuct);
                 if (id > 0)
                 {
                     SetAlert("Created Product Compeled", "success");
@@ -54,6 +72,8 @@ namespace FashionShop.Areas.Admin.Controllers
 
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+        [ValidateInput(false)]
         public ActionResult Edit(Product product)
         {
             if (ModelState.IsValid)
@@ -63,7 +83,7 @@ namespace FashionShop.Areas.Admin.Controllers
                 var result = dao.Update(product);
                 if (result)
                 {
-                    SetAlert("Edited User Compeled.", "success");
+                    SetAlert("Edited Product Compeled.", "success");
                     return RedirectToAction("Index", "Product");
                 }
                 else

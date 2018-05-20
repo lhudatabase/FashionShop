@@ -33,7 +33,6 @@ namespace Models.Dao
                 order.ShipMobile = entity.ShipMobile;
                 order.ShipAddress = entity.ShipAddress;
                 order.ShipEmail = entity.ShipEmail;
-                order.CreatedDate = DateTime.Now;
                 db.SaveChanges();
                 return true;
             }

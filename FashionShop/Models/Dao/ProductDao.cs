@@ -40,11 +40,9 @@ namespace Model.Dao
                 product.CategoryID = entity.CategoryID;
                 product.Detail = entity.Detail;
                 product.Warranty = entity.Warranty;
-                product.CreatedDate = DateTime.Now;
-                product.CreatedBy = entity.CreatedBy;
-                product.Status = entity.Status;
                 product.TopHot = entity.TopHot;
-                product.Status = entity.Status;
+                product.ModifiedBy = entity.ModifiedBy;
+                product.ModifiedDate = DateTime.Now;
                 db.SaveChanges();
                 return true;
             }
@@ -94,6 +92,14 @@ namespace Model.Dao
             }
 
         }
+
+        //public bool ChangeStatus(long id)
+        //{
+        //    var product = db.Products.Find(id);
+        //    product.Status = !product.Status;
+        //    db.SaveChanges();
+        //    return product.Status;
+        //}
 
     }
 }
