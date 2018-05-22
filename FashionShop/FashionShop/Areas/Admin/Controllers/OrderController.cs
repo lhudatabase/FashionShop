@@ -10,7 +10,7 @@ namespace FashionShop.Areas.Admin.Controllers
 {
     public class OrderController : BaseController
     {
-        public ActionResult Index(string searchString, int page = 1, int pageSize = 10)
+        public ActionResult Index(string searchString, int page = 1, int pageSize = 999999)
         {
             var dao = new OrderDao();
             var model = dao.ListALLPaging(searchString, page, pageSize);

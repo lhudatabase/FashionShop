@@ -26,28 +26,36 @@
         <div class="box-content">
             <table class="table table-striped table-bordered bootstrap-datatable datatable">
                 <thead>
-
                     <tr>
-                        <th>Name<a class="btn btn-success" href="/Admin/ProductCategory/Create">+</a></th>
+                        <th>ID</th>
+                        <th>Name</th>
                         <th>MetaTitle</th>
                         <th>ParentID</th>
                         <th>DisplayOrder</th>
                         <th>CreatedDate</th>
                         <th>Action</th>
+                        <th>Delete</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var item in Model)
                     {
                         <tr id="row_@item.ID">
+                            <td>@item.ID</td>
                             <td class="center">@item.Name</td>
                             <td class="center">@item.MetaTitle</td>
                             <td class="center">@item.ParentID</td>
                             <td class="center">@item.DisplayOrder</td>
                             <td class="center">@item.CreatedDate</td>
                             <td class="center">
-                                <a href="/Admin/ProductCategory/Edit/@item.ID">Edit</a>
-                                ||
+                                <a class="btn btn-warning" href="/Admin/ProductCategory/Create">
+                                    <i class="halflings-icon plus-sign "></i>
+                                </a>
+                                <a class="btn btn-success" href="/Admin/ProductCategory/Edit/@item.ID">
+                                    <i class="halflings-icon white edit"></i>
+                                </a>
+                            </td>
+                                <td>
                                 @Ajax.ActionLink("Delete", "Delete", new { @id = item.ID }, new AjaxOptions
                            {
                                Confirm = "Are you sure? ",

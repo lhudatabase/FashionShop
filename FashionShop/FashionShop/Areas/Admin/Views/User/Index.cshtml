@@ -34,12 +34,13 @@
                     
                     <tr>
                     
-                        <th>Username<a class="btn btn-success" href="/Admin/User/Create">+</a></th>
+                        <th>Username</th>
                         <th>Name</th>
                         <th>Email</th>
                         <th>Phone</th>
                         <th>Status</th>
                         <th>Actions</th>
+                        <th>Delete</th>
                         
                     </tr>
                 </thead>
@@ -52,11 +53,17 @@
                             <td class="center">@item.Email</td>
                             <td class="center">@item.Phone</td>
                             <td class="center">
-                                <a href="#" class="btn-active btn btn-success" data-id="@item.ID">@Html.Raw(item.Status ? "<strong>Active</strong>" : "Blocked")</a>
+                                <a href="#" class="btn-active btn btn-danger" data-id="@item.ID">@Html.Raw(item.Status ? "<strong>Active</strong>" : "Blocked")</a>
                             </td>
                             <td class="center">
-                                <a href="/Admin/User/Edit/@item.ID">Edit</a>
-                                ||
+                                <a class="btn btn-warning" href="/Admin/User/Create">
+                                    <i class="halflings-icon plus-sign " ></i>
+                                </a>
+                                <a class="btn btn-success" href="/Admin/User/Edit/@item.ID">
+                                    <i class="halflings-icon white edit"></i>
+                                </a>
+                                </td>
+                            <td>
                                 @Ajax.ActionLink( "Delete", "Delete", new { @id = item.ID }, new AjaxOptions
                            {
                                Confirm = "Are you sure? ",

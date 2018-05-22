@@ -11,7 +11,7 @@ namespace FashionShop.Areas.Admin.Controllers
     {
         // GET: Admin/FeedBack
      
-            public ActionResult Index(string searchString, int page = 1, int pageSize = 10)
+            public ActionResult Index(string searchString, int page = 1, int pageSize = 99999)
             {
                 var dao = new FeedBackDao();
                 var model = dao.ListALLPaging(searchString, page, pageSize);

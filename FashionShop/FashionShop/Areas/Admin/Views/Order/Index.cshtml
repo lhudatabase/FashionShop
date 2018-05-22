@@ -26,27 +26,33 @@
             <table class="table table-striped table-bordered bootstrap-datatable datatable">
                 <thead>
                     <tr>
+                        <th>ID</th>
                         <th>ShipName</th>
                         <th>ShipEmail</th>
                         <th>ShipPhone</th>
                         <th>ShipAddress</th>
                         <th>CreateDate</th>
                         <th>Action</th>
+                        <th>Delete</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var item in Model)
                     {
                         <tr id="row_@item.ID">
-                            <td>@item.ShipName </td>
+                            <td>@item.ID</td>
+                            <td class="center">@item.ShipName </td>
                             <td class="center">@item.ShipEmail</td>
                             <td class="center">@item.ShipMobile</td>
                             <td class="center">@item.ShipAddress</td>
                             <td class="center">@item.CreatedDate</td>
-                          
+                            
                             <td class="center">
-                                <a href="/Admin/Order/Edit/@item.ID">Edit</a>
-                                ||
+                                <a class="btn btn-success" href="/Admin/Order/Edit/@item.ID">
+                                    <i class="halflings-icon white edit"></i>
+                                </a>
+                            </td>
+                            <td class="center">
                                 @Ajax.ActionLink("Delete", "Delete", new { @id = item.ID }, new AjaxOptions
                            {
                                Confirm = "Are you sure? ",

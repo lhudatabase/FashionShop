@@ -11,7 +11,7 @@ namespace FashionShop.Areas.Admin.Controllers
     public class ProductController : BaseController
     {
         // GET: Admin/Product
-        public ActionResult Index(string searchString, int page = 1, int pageSize = 10)
+        public ActionResult Index(string searchString, int page = 1, int pageSize = 99999999)
         {
             var dao = new ProductDao();
             var model = dao.ListALLPaging(searchString, page, pageSize);
