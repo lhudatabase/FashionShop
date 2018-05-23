@@ -64,7 +64,7 @@ namespace FashionShop.Areas.Admin
 
             context.MapRoute(
                 "Login",
-                "login",
+                "admin/login",
                 new { action = "Index", controller = "Login", id = UrlParameter.Optional }
             );
 

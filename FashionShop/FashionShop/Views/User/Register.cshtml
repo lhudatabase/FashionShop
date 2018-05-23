@@ -1,0 +1,62 @@
+﻿@model FashionShop.Models.RegisterModel
+
+@{
+    ViewBag.Title = "Đăng Kí Tài Khoản";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="form">
+    <!--form-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-1">
+                @using (Html.BeginForm("Register", "User", FormMethod.Post))
+
+                {<div class="form-group">
+
+                        @if (ViewBag.Success != null)
+                        {
+                            <div class="alert alert-success">@ViewBag.Success</div>
+                        }
+                    </div>
+
+                    <!--login form-->
+                    <h2>Đăng Kí Tài Khoản</h2>
+
+                    <form action="#">
+                        <p>Tài Khoản</p>
+                        @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                        @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", @autofocus = "autofocus" })<br>
+                        <br>
+                        <p>Mật Khẩu</p>
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                        @Html.PasswordFor(model => model.Password, new { @class = "form-control" })<br>
+                        <br>
+                        <p>Xác Nhận Mật Khẩu</p>
+                        @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+                        @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "form-control" })
+                        <br>
+                        <p>Họ Tên</p>
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                        @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+                        <br>
+                        <p>Địa Chỉ</p>
+                        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                        @Html.TextAreaFor(model => model.Address, new { @class = "form-control" })
+                        <br>
+                        <p>Địa Chỉ Email</p>
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                        @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                        <br>
+                        <p>Số Điện Thoại</p>
+                        @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                        @Html.TextBoxFor(model => model.Phone, new { @class = "form-control" })
+                        <br>
+                        <button type="submit" class="btn btn-default">Đăng Kí</button>
+
+                    </form>
+                }
+            </div>
+        </div>
+    </div>
+</section><!--/form-->

@@ -1,0 +1,38 @@
+﻿@model FashionShop.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="form">
+    <!--form-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-1">
+                @using (Html.BeginForm("Login", "User", FormMethod.Post))
+                {
+
+
+
+                    <h2>Đăng Nhập</h2>
+
+                    <form action="#">
+                        <p>Tài Khoản</p>
+                        @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                        @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", @autofocus = "autofocus" })
+                        <br>
+                        <p>Mật Khẩu</p>
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                        @Html.PasswordFor(model => model.Password, new { @class = "form-control" })<br>
+
+
+
+                        <button type="submit" class="btn btn-default">Đăng Nhập</button>
+
+                    </form>
+                }
+            </div>
+        </div>
+    </div>
+</section><!--/form-->

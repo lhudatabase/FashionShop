@@ -1,0 +1,25 @@
+﻿@model List<Models.Framework.Menu>
+
+<div class="shop-menu pull-right">
+    @{
+        var session = (UserLogin)Session[FashionShop.Common.CommonConstants.USER_SESSION];
+    }
+    @if (session == null)
+    {
+        <ul class="nav navbar-nav">
+            @foreach (var item in Model)
+            {
+                <li><a href="@item.Link" target="@item.Target"><i class="fa fa-user"></i> @item.Text</a></li>
+            }
+
+        </ul>
+    }
+    else
+    {
+        <ul class="nav navbar-nav">
+            <li><a>Hello: <strong>@session.UserName!</strong></a></li>
+            <li>@Html.ActionLink("Log Out", "LogOut", "User")</li>
+
+        </ul>
+    }
+</div>

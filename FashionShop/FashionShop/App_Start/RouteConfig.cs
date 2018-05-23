@@ -35,21 +35,21 @@ namespace FashionShop
 
             routes.MapRoute(
           name: "Cart",
-          url: "gio-hang",
+          url: "cart",
           defaults: new { controller = "Cart", action = "Index", id = UrlParameter.Optional },
           namespaces: new[] { "FashionShop.Controllers" }
           );
 
             routes.MapRoute(
-       name: "Payment Success",
-       url: "hoan-thanh",
-       defaults: new { controller = "Cart", action = "Success", id = UrlParameter.Optional },
-       namespaces: new[] { "FashionShop.Controllers" }
-   );
+           name: "Payment Success",
+           url: "success",
+           defaults: new { controller = "Cart", action = "Success", id = UrlParameter.Optional },
+           namespaces: new[] { "FashionShop.Controllers" }
+          );
 
             routes.MapRoute(
              name: "Payment",
-             url: "thanh-toan",
+             url: "payment",
              defaults: new { controller = "Cart", action = "Payment", id = UrlParameter.Optional },
              namespaces: new[] { "FashionShop.Controllers" }
          );
@@ -73,9 +73,28 @@ namespace FashionShop
                defaults: new { controller = "Shop", action = "Checkout", id = UrlParameter.Optional }
            );
 
-           
-
             #endregion
+
+            routes.MapRoute(
+               name: "Register",
+               url: "user/register",
+               defaults: new { controller = "User", action = "Register", id = UrlParameter.Optional },
+               namespaces: new[] { "FashionShop.Controllers" }
+           );
+
+            routes.MapRoute(
+               name: "UserLogin",
+               url: "user/login",
+               defaults: new { controller = "User", action = "Login", id = UrlParameter.Optional },
+               namespaces: new[] { "FashionShop.Controllers" }
+           );
+
+            routes.MapRoute(
+               name: "UserLogOut",
+               url: "user/logout",
+               defaults: new { controller = "User", action = "LogOut", id = UrlParameter.Optional },
+               namespaces: new[] { "FashionShop.Controllers" }
+           );
 
             routes.MapRoute(
                 name: "Default",
