@@ -296,3 +296,5 @@ D:\FashionShop\FashionShop\FashionShop\obj\Debug\FashionShop.pdb
 D:\FashionShop\FashionShop\FashionShop\bin\Newtonsoft.Json.xml
 D:\FashionShop\FashionShop\FashionShop\bin\CKFinder.dll
 D:\FashionShop\FashionShop\FashionShop\bin\CKFinder.pdb
+D:\FashionShop\FashionShop\FashionShop\bin\Common.dll
+D:\FashionShop\FashionShop\FashionShop\bin\Common.pdb

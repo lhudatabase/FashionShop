@@ -21,6 +21,13 @@ namespace FashionShop.Areas.Admin.Controllers
             return View();
         }
 
+        public ActionResult LogOut()
+        {
+            Session[CommonConstants.USER_SESSION] = null;
+            return Redirect("Index");
+
+        }
+
         public ActionResult Login(LoginModel model)
         {
             if (ModelState.IsValid)

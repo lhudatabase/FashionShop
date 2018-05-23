@@ -16,11 +16,11 @@ namespace Models.Dao
         {
             db = new FashionShopDbContext();
         }
-        public long Insert(Order entity)
+        public long Insert(Order order)
         {
-            db.Orders.Add(entity);
+            db.Orders.Add(order);
             db.SaveChanges();
-            return entity.ID;
+            return order.ID;
         }
 
 

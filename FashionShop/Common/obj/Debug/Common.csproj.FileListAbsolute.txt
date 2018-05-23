@@ -1,0 +1,5 @@
+D:\FashionShop\FashionShop\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\FashionShop\FashionShop\Common\bin\Debug\Common.dll
+D:\FashionShop\FashionShop\Common\bin\Debug\Common.pdb
+D:\FashionShop\FashionShop\Common\obj\Debug\Common.dll
+D:\FashionShop\FashionShop\Common\obj\Debug\Common.pdb

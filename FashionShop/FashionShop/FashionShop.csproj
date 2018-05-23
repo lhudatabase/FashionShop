@@ -176,11 +176,13 @@
     <Compile Include="Common\CommonConstants.cs" />
     <Compile Include="Common\MaHoaMD5.cs" />
     <Compile Include="Common\UserLogin.cs" />
+    <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ShopController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CartItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1288,6 +1290,7 @@
     <Content Include="Assets\Admin\css\jquery.gritter.css" />
     <Content Include="Assets\Admin\css\jquery.iphone.toggle.css" />
     <Content Include="Assets\Admin\css\jquery.noty.css" />
+    <Content Include="Assets\Admin\css\login.css" />
     <Content Include="Assets\Admin\css\noty_theme_default.css" />
     <Content Include="Assets\Admin\css\style-forms.css" />
     <Content Include="Assets\Admin\css\style-responsive.css" />
@@ -1481,9 +1484,13 @@
     <Content Include="Assets\HomePage\images\shop\product7.jpg" />
     <Content Include="Assets\HomePage\images\shop\product8.jpg" />
     <Content Include="Assets\HomePage\images\shop\product9.jpg" />
+    <Content Include="Assets\HomePage\images\wallpaper\caydo.jpg" />
     <Content Include="Assets\HomePage\images\wallpaper\login_wallpaper.jpg" />
     <Content Include="Assets\HomePage\js\bootstrap.min.js" />
     <Content Include="Assets\HomePage\js\contact.js" />
+    <Content Include="Assets\HomePage\js\Controller\baseComtroller.js" />
+    <Content Include="Assets\HomePage\js\Controller\cartController.js" />
+    <Content Include="Assets\HomePage\js\Controller\ContactController.js" />
     <Content Include="Assets\HomePage\js\gmaps.js" />
     <Content Include="Assets\HomePage\js\html5shiv.js" />
     <Content Include="Assets\HomePage\js\jquery.js" />
@@ -1592,12 +1599,15 @@
     <Content Include="Views\Shop\Contact.cshtml" />
     <Content Include="Views\Shop\Checkout.cshtml" />
     <Content Include="Views\Shop\Cart.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Cart\Payment.cshtml" />
+    <Content Include="Views\Cart\Success.cshtml" />
+    <Content Include="Views\Cart\Failed.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Assets\Admin\ckfinder\userfiles\files\" />
     <Folder Include="Assets\Admin\ckfinder\userfiles\flash\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -1607,6 +1617,10 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{A79B260C-1C19-4F6C-B629-095CDF66D0C9}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Models\Models.csproj">
       <Project>{31f671ac-acb8-4964-89f2-4497d717f0ca}</Project>
       <Name>Models</Name>
