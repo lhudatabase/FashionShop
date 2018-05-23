@@ -298,3 +298,7 @@ D:\FashionShop\FashionShop\FashionShop\bin\CKFinder.dll
 D:\FashionShop\FashionShop\FashionShop\bin\CKFinder.pdb
 D:\FashionShop\FashionShop\FashionShop\bin\Common.dll
 D:\FashionShop\FashionShop\FashionShop\bin\Common.pdb
+C:\Users\hai le\Desktop\FashionShop\FashionShop\FashionShop\bin\CKFinder.dll
+C:\Users\hai le\Desktop\FashionShop\FashionShop\FashionShop\bin\Common.dll
+C:\Users\hai le\Desktop\FashionShop\FashionShop\FashionShop\bin\Common.pdb
+C:\Users\hai le\Desktop\FashionShop\FashionShop\FashionShop\bin\CKFinder.pdb

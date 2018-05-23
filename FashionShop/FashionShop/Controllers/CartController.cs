@@ -30,6 +30,7 @@ namespace FashionShop.Controllers
 
         public JsonResult DeleteAll()
         {
+            //delete all
             Session[CartSession] = null;
             return Json(new
             {
@@ -38,6 +39,7 @@ namespace FashionShop.Controllers
         }
         public JsonResult Delete(long id)
         {
+            //delete tung phan tu
             var sessionCart = (List<CartItem>)Session[CartSession];
             sessionCart.RemoveAll(x => x.Product.ID == id);
             Session[CartSession] = sessionCart;
@@ -48,6 +50,7 @@ namespace FashionShop.Controllers
         }
         public JsonResult Update(string cartModel)
         {
+            //update so luong
             var jsonCart = new JavaScriptSerializer().Deserialize<List<CartItem>>(cartModel);
             var sessionCart = (List<CartItem>)Session[CartSession];
 
@@ -67,6 +70,7 @@ namespace FashionShop.Controllers
         }
         public ActionResult AddItem(long productId, int quantity)
         {
+            //them san pham
             var product = new ProductsDao().ViewDetail(productId);
             var cart = Session[CartSession];
             if (cart != null)
@@ -117,6 +121,7 @@ namespace FashionShop.Controllers
         [HttpPost]
         public ActionResult Payment(string shipName, string mobile, string address, string email)
         {
+            //thanh toan
             var order = new Order();
             order.CreatedDate = DateTime.Now;
             order.ShipAddress = address;
