@@ -9,3 +9,9 @@ C:\QLDuLieu\FashionShop\FashionShop\Common\obj\Debug\Common.csprojResolveAssembl
 C:\QLDuLieu\FashionShop\FashionShop\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\QLDuLieu\FashionShop\FashionShop\Common\obj\Debug\Common.dll
 C:\QLDuLieu\FashionShop\FashionShop\Common\obj\Debug\Common.pdb
+E:\WebBaoCao\FashionShop\FashionShop\Common\bin\Debug\Common.dll
+E:\WebBaoCao\FashionShop\FashionShop\Common\bin\Debug\Common.pdb
+E:\WebBaoCao\FashionShop\FashionShop\Common\obj\Debug\Common.csprojAssemblyReference.cache
+E:\WebBaoCao\FashionShop\FashionShop\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+E:\WebBaoCao\FashionShop\FashionShop\Common\obj\Debug\Common.dll
+E:\WebBaoCao\FashionShop\FashionShop\Common\obj\Debug\Common.pdb

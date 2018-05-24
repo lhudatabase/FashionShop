@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+
     <link href="/Assets/HomePage/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Assets/HomePage/css/bootstrap-theme.css" rel="stylesheet" />
     <link href="/Assets/HomePage/css/font-awesome.min.css" rel="stylesheet">
     <link href="/Assets/HomePage/css/prettyPhoto.css" rel="stylesheet">
     <link href="/Assets/HomePage/css/price-range.css" rel="stylesheet">
     <link href="/Assets/HomePage/css/animate.css" rel="stylesheet">
     <link href="/Assets/HomePage/css/main.css" rel="stylesheet">
     <link href="/Assets/HomePage/css/responsive.css" rel="stylesheet">
+    <link href="~/Assets/Admin/css/jquery-ui.css" rel="stylesheet" />
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -60,14 +63,14 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="logo pull-left">
-                            <a href="home"><img src="~/Assets/HomePage/images/home/logo.png" alt="" /></a>
+                            <a href="/Home"><img src="~/Assets/HomePage/images/home/logo.png" alt="" /></a>
                         </div>
 
                     </div>
                     <div class="col-sm-8">
                         <div class="shop-menu pull-right">
                             <ul class="nav navbar-nav">
-                                <li><a href="Cart"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                                @{ Html.RenderAction("HeaderCart", "Home");}
                                 <li>@{ Html.RenderAction("TopMenu", "Home");}</li>
                             </ul>
                         </div>
@@ -120,8 +123,10 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="search_box pull-right">
-                            <input type="text" placeholder="Search" />
+                        <div class="search_box">
+                            <form action="/tim-kiem" method="get" class="search_box pull-right">
+                                <input id="txtKeyword" name="keyword" type="text" placeholder="Search">
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -295,7 +300,14 @@
     <script src="/Assets/HomePage/js/price-range.js"></script>
     <script src="/Assets/HomePage/js/jquery.prettyPhoto.js"></script>
     <script src="/Assets/HomePage/js/main.js"></script>
-   
+    <script src="~/Assets/Admin/js/jquery-ui.js"></script>
+    <script src="~/Assets/HomePage/js/Controller/baseComtroller.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
     <!-- #endregion -->
     @RenderSection("jsFooter", required: false)
 </body>

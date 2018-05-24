@@ -45,7 +45,8 @@ namespace Models.Dao
 
         }
 
-        public ProductCategory ViewDetail(int id)
+        // Chi tiết trong category
+        public ProductCategory ViewDetail(long id)
         {
             return db.ProductCategories.Find(id);
         }

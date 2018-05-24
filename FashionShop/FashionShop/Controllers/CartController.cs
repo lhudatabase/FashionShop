@@ -146,7 +146,7 @@ namespace FashionShop.Controllers
 
                     total += (item.Product.Price.GetValueOrDefault(0) * item.Quantity);
                 }
-                string content = System.IO.File.ReadAllText(Server.MapPath("~/Skin/Client/GuiMail/NewOrder.html"));
+                string content = System.IO.File.ReadAllText(Server.MapPath("~/Assets/HomePage/GuiMail/NewOrder.html"));
 
                 content = content.Replace("{{CustomerName}}", shipName);
                 content = content.Replace("{{Phone}}", mobile);

@@ -29,13 +29,13 @@ namespace FashionShop
             routes.MapRoute(
               name: "Add Cart",
               url: "them-gio-hang",
-              defaults: new { controller = "Cart", action = "AddItem", id = UrlParameter.Optional },
+              defaults: new { controller = "cart", action = "AddItem", id = UrlParameter.Optional },
                namespaces: new[] { "FashionShop.Controllers" }
           );
 
             routes.MapRoute(
           name: "Cart",
-          url: "cart",
+          url: "gio-hang",
           defaults: new { controller = "Cart", action = "Index", id = UrlParameter.Optional },
           namespaces: new[] { "FashionShop.Controllers" }
           );
@@ -49,7 +49,7 @@ namespace FashionShop
 
             routes.MapRoute(
              name: "Payment",
-             url: "payment",
+             url: "thanh-toan",
              defaults: new { controller = "Cart", action = "Payment", id = UrlParameter.Optional },
              namespaces: new[] { "FashionShop.Controllers" }
          );
@@ -95,6 +95,20 @@ namespace FashionShop
                defaults: new { controller = "User", action = "LogOut", id = UrlParameter.Optional },
                namespaces: new[] { "FashionShop.Controllers" }
            );
+            // Chi tiết sản phẩm
+            routes.MapRoute(
+                name: "Product Detail",
+                url: "{metatitle}-{id}",
+                defaults: new { controller = "Product", action = "Detail", id = UrlParameter.Optional },
+                 namespaces: new[] { "FashionShop.Controllers" }
+            );
+            // Tìm kiếm sản phẩm
+            routes.MapRoute(
+                   name: "Search",
+                   url: "tim-kiem",
+                   defaults: new { controller = "Product", action = "Search", id = UrlParameter.Optional },
+                   namespaces: new[] { "WebShopDemo.Controllers" }
+               );
 
             routes.MapRoute(
                 name: "Default",

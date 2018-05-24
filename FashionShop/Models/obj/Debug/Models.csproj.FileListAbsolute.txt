@@ -54,3 +54,33 @@ C:\QLDuLieu\FashionShop\FashionShop\Models\obj\Debug\Models.csproj.CoreCompileIn
 C:\QLDuLieu\FashionShop\FashionShop\Models\obj\Debug\Models.csproj.CopyComplete
 C:\QLDuLieu\FashionShop\FashionShop\Models\obj\Debug\Models.dll
 C:\QLDuLieu\FashionShop\FashionShop\Models\obj\Debug\Models.pdb
+E:\WebBaoCao\FashionShop\FashionShop\Models\bin\Debug\Models.dll.config
+E:\WebBaoCao\FashionShop\FashionShop\Models\bin\Debug\Models.dll
+E:\WebBaoCao\FashionShop\FashionShop\Models\bin\Debug\Models.pdb
+E:\WebBaoCao\FashionShop\FashionShop\Models\bin\Debug\EntityFramework.dll
+E:\WebBaoCao\FashionShop\FashionShop\Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\WebBaoCao\FashionShop\FashionShop\Models\bin\Debug\PagedList.dll
+E:\WebBaoCao\FashionShop\FashionShop\Models\bin\Debug\PagedList.Mvc.dll
+E:\WebBaoCao\FashionShop\FashionShop\Models\bin\Debug\EntityFramework.xml
+E:\WebBaoCao\FashionShop\FashionShop\Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\WebBaoCao\FashionShop\FashionShop\Models\bin\Debug\PagedList.xml
+E:\WebBaoCao\FashionShop\FashionShop\Models\bin\Debug\PagedList.Mvc.xml
+E:\WebBaoCao\FashionShop\FashionShop\Models\obj\Debug\Models.csprojAssemblyReference.cache
+E:\WebBaoCao\FashionShop\FashionShop\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+E:\WebBaoCao\FashionShop\FashionShop\Models\obj\Debug\Models.csproj.CopyComplete
+E:\WebBaoCao\FashionShop\FashionShop\Models\obj\Debug\Models.dll
+E:\WebBaoCao\FashionShop\FashionShop\Models\obj\Debug\Models.pdb
+C:\Users\hai le\Desktop\FashionShop\Models\bin\Debug\Models.dll.config
+C:\Users\hai le\Desktop\FashionShop\Models\bin\Debug\Models.dll
+C:\Users\hai le\Desktop\FashionShop\Models\bin\Debug\Models.pdb
+C:\Users\hai le\Desktop\FashionShop\Models\bin\Debug\EntityFramework.dll
+C:\Users\hai le\Desktop\FashionShop\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hai le\Desktop\FashionShop\Models\bin\Debug\PagedList.dll
+C:\Users\hai le\Desktop\FashionShop\Models\bin\Debug\PagedList.Mvc.dll
+C:\Users\hai le\Desktop\FashionShop\Models\bin\Debug\EntityFramework.xml
+C:\Users\hai le\Desktop\FashionShop\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hai le\Desktop\FashionShop\Models\bin\Debug\PagedList.xml
+C:\Users\hai le\Desktop\FashionShop\Models\bin\Debug\PagedList.Mvc.xml
+C:\Users\hai le\Desktop\FashionShop\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\hai le\Desktop\FashionShop\Models\obj\Debug\Models.dll
+C:\Users\hai le\Desktop\FashionShop\Models\obj\Debug\Models.pdb

@@ -1,84 +1,16 @@
 ﻿
+@model Models.Framework.Product
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Detail";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var listNewProducts = (List<Models.Framework.Product>)ViewBag.NewProducts;
-    var listFeatureProducts = (List<Models.Framework.Product>)ViewBag.ListFeatureProducts;
+    var category = (Models.Framework.ProductCategory)ViewBag.Category;
+    var relatedProducts = (List<Models.Framework.Product>)ViewBag.RelatedProducts;
 }
-
-<head>
-    <title>Home | Omega-Shop</title>
-</head>
-
-<section id="slider">
-    <!--slider-->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div id="slider-carousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#slider-carousel" data-slide-to="1"></li>
-                        <li data-target="#slider-carousel" data-slide-to="2"></li>
-                    </ol>
-
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div class="col-sm-6">
-                                <h1><span>OMEGA</span>-SHOP</h1>
-                                <h2>Modern Fashion</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <button type="button" class="btn btn-default get">Get it now</button>
-                            </div>
-                            <div class="col-sm-6">
-                                <img src="Assets/HomePage/images/home/girl1.jpg" class="girl img-responsive" alt="" />
-                                <img src="Assets/HomePage/images/home/pricing.png" class="pricing" alt="" />
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-sm-6">
-                                <h1><span>OMEGA</span>-SHOP</h1>
-                                <h2>Amazing Design</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <button type="button" class="btn btn-default get">Get it now</button>
-                            </div>
-                            <div class="col-sm-6">
-                                <img src="Assets/HomePage/images/home/girl2.jpg" class="girl img-responsive" alt="" />
-                                <img src="Assets/HomePage/images/home/pricing.png" class="pricing" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="col-sm-6">
-                                <h1><span>OMEGA</span>-SHOP</h1>
-                                <h2>Elegant Fashion</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <button type="button" class="btn btn-default get">Get it now</button>
-                            </div>
-                            <div class="col-sm-6">
-                                <img src="Assets/HomePage/images/home/girl3.jpg" class="girl img-responsive" alt="" />
-                                <img src="Assets/HomePage/images/home/pricing.png" class="pricing" alt="" />
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                    <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section><!--/slider-->
 
 <section>
     <div class="container">
         <div class="row">
+
             <div class="col-sm-3">
                 <div class="left-sidebar">
                     <h2>Category</h2>
@@ -215,74 +147,137 @@
                         </div>
                     </div><!--/price-range-->
 
-                    <div style="margin-bottom:30px" class="shipping text-center">
+                    <div class="shipping text-center">
                         <!--shipping-->
-                        <img  src="Assets/HomePage/images/home/shipping.jpg" alt="" />
+                        <img src="Assets/HomePage/images/home/shipping.jpg" alt="" />
                     </div><!--/shipping-->
 
                 </div>
             </div>
 
             <div class="col-sm-9 padding-right">
-                <div class="features_items">                    
-                    <!--features_items-->
-                    <h2 class="title text-center">Features Items</h2>
-                    @foreach (var items in listNewProducts)
-                    {
-                        var url = "/" + items.MetaTitle + "-" + items.ID;
-                        <div class="col-sm-3">
+                <div class="product-details">
+                    <!--product-details-->
+                    <div class="col-sm-5">
+                        <div class="view-product">
+                            <img src="@Model.Image" alt="">
 
-                            <div class="product-image-wrapper">
+                        </div>
+                        <div id="similar-product" class="carousel slide" data-ride="carousel">
 
-                                <div class="single-products">
-                                    <div class="productinfo text-center">
-                                        <a data-toggle="tooltip"  data-placement="top" title="Detail Product" href="@url"><img src="@items.Image" alt="@items.Name" /></a>
-                                        <h2>@(items.Price.HasValue ? items.Price.Value.ToString("N0") : "Contact")$</h2>
-                                        <p>@items.Name</p>
-                                        <a  href="/them-gio-hang?productId=@items.ID&quantity=1" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add Cart</a>
-                                    </div>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <a href=""><img src="images/product-details/similar1.jpg" alt=""></a>
+                                    <a href=""><img src="images/product-details/similar2.jpg" alt=""></a>
+                                    <a href=""><img src="images/product-details/similar3.jpg" alt=""></a>
                                 </div>
+                                <div class="item">
+                                    <a href=""><img src="images/product-details/similar1.jpg" alt=""></a>
+                                    <a href=""><img src="images/product-details/similar2.jpg" alt=""></a>
+                                    <a href=""><img src="images/product-details/similar3.jpg" alt=""></a>
+                                </div>
+                                <div class="item">
+                                    <a href=""><img src="images/product-details/similar1.jpg" alt=""></a>
+                                    <a href=""><img src="images/product-details/similar2.jpg" alt=""></a>
+                                    <a href=""><img src="images/product-details/similar3.jpg" alt=""></a>
+                                </div>
+                            </div>       
+                        </div>
+
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="product-information">
+                            <!--/product-information-->
+                            <img src="images/product-details/new.jpg" class="newarrival" alt="">
+                            <h2>@Model.Name</h2>
+                            <p>Mã Sản Phẩm: @Model.ID</p>
+                            <img src="images/product-details/rating.png" alt="">
+                            <span>
+                                <span>@(Model.Price.HasValue ? Model.Price.Value.ToString("N0") + "$" : "Liên Hệ")</span>
+                                <a href="/them-gio-hang?productId=@Model.ID&quantity=1" class="btn btn-default add-to-cart">
+                                    <i class="fa fa-shopping-cart"></i>Add Cart
+
+                                </a>
+                            </span>
+                            <p><b>Availability:</b> In Stock</p>
+                            <p><b>Condition:</b> New</p>
+                            <p><b>Brand:</b> E-SHOPPER</p>
+                            <a href=""><img src="/Skin/Client/images/product-details/share.png" class="share img-responsive" alt=""></a>
+                        </div><!--/product-information-->
+                    </div>
+                </div><!--/product-details-->
+
+                <div class="category-tab shop-details-tab">
+                    <!--category-tab-->
+                    <div class="col-sm-12">
+                        <ul class="nav nav-tabs">
+                            <li class=""><a href="#details" data-toggle="tab">Chi Tiết</a></li>
+                            <li class="active"><a href="#reviews" data-toggle="tab">Đánh Giá</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane fade" id="details">
+                            <h4>@Html.Raw(Model.Detail)</h4>
+                        </div>
+
+                        <div class="tab-pane fade active in" id="reviews">
+                            <div class="col-sm-12">
+                                <ul>
+                                    <li><a href=""><i class="fa fa-user"></i>EUGEN</a></li>
+                                    <li><a href=""><i class="fa fa-clock-o"></i>12:41 PM</a></li>
+                                    <li><a href=""><i class="fa fa-calendar-o"></i>31 DEC 2014</a></li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <p><b>Write Your Review</b></p>
+
+                                <form action="#">
+                                    <span>
+                                        <input type="text" placeholder="Your Name">
+                                        <input type="email" placeholder="Email Address">
+                                    </span>
+                                    <textarea name=""></textarea>
+                                    <b>Rating: </b> <img src="/Skin/Client/images/product-details/rating.png" alt="">
+                                    <button type="button" class="btn btn-default pull-right">
+                                        Submit
+                                    </button>
+                                </form>
                             </div>
                         </div>
-                    }
 
-
-                </div><!--features_items-->
+                    </div>
+                </div><!--/category-tab-->
 
                 <div class="recommended_items">
                     <!--recommended_items-->
-                    <h2 class="title text-center">recommended items</h2>
+                    <h3 class="title text-center">Related products</h3>
+                    <hr>
 
                     <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="item active">
-                                @foreach (var items in listFeatureProducts)
-                                {
-                                    var url = "/" + items.MetaTitle + "-" + items.ID;
-                                    <div class="col-sm-4">
-                                        <div class="product-image-wrapper">
-                                            <div class="single-products">
-                                                <div class="productinfo text-center">
-                                                    <a data-toggle="tooltip"  data-placement="top" title="Detail Product" href="@url"><img src="@items.Image" alt="@items.Name" /></a>
-                                                    <h2>@items.Price$</h2>
-                                                    <p>@items.Name</p>
-                                                    <a href="/them-gio-hang?productId=@items.ID&quantity=1" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add Cart</a>
-                                                </div>
-
+                            @foreach (var item in relatedProducts)
+                            {
+                                var url = "/" + item.MetaTitle + "-" + item.ID;
+                                <div class="col-sm-6">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <a href="@url"> <img src="@item.Image" alt="@item.Name"></a>
+                                                <h2>@(Model.Price.HasValue ? Model.Price.Value.ToString("N0") + "VND" : "Liên Hệ")</h2>
+                                                <p>@item.Name</p>
+                                                <a href="/them-gio-hang?productId=@item.ID&quantity=1" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add Cart</a>
                                             </div>
                                         </div>
                                     </div>
-                                }
-                            </div>
+                                </div>
+                            }
                         </div>
-                    </div>
-                </div><!--/recommended_items-->
-
+                    </div><!--/recommended_items-->
+                </div>
             </div>
         </div>
     </div>
+
 </section>
-
-
 
 

@@ -178,6 +178,7 @@
     <Compile Include="Common\UserLogin.cs" />
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ShopController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
@@ -1289,6 +1290,7 @@
     <Content Include="Assets\Admin\css\ie.css" />
     <Content Include="Assets\Admin\css\ie9.css" />
     <Content Include="Assets\Admin\css\jquery-ui-1.8.21.custom.css" />
+    <Content Include="Assets\Admin\css\jquery-ui.css" />
     <Content Include="Assets\Admin\css\jquery.cleditor.css" />
     <Content Include="Assets\Admin\css\jquery.gritter.css" />
     <Content Include="Assets\Admin\css\jquery.iphone.toggle.css" />
@@ -1397,6 +1399,7 @@
     <Content Include="Assets\Admin\js\jquery-1.9.1.min.js" />
     <Content Include="Assets\Admin\js\jquery-migrate-1.0.0.min.js" />
     <Content Include="Assets\Admin\js\jquery-ui-1.10.0.custom.min.js" />
+    <Content Include="Assets\Admin\js\jquery-ui.js" />
     <Content Include="Assets\Admin\js\jquery.chosen.min.js" />
     <Content Include="Assets\Admin\js\jquery.cleditor.min.js" />
     <Content Include="Assets\Admin\js\jquery.cookie.js" />
@@ -1421,6 +1424,7 @@
     <Content Include="Assets\Admin\js\retina.js" />
     <Content Include="Assets\HomePage\css\animate.css" />
     <Content Include="Assets\HomePage\css\bootstrap.min.css" />
+    <Content Include="Assets\HomePage\css\Dropdown.css" />
     <Content Include="Assets\HomePage\css\font-awesome.min.css" />
     <Content Include="Assets\HomePage\css\login.css" />
     <Content Include="Assets\HomePage\css\main.css" />
@@ -1429,6 +1433,7 @@
     <Content Include="Assets\HomePage\css\responsive.css" />
     <Content Include="Assets\HomePage\fonts\fontawesome-webfont.svg" />
     <Content Include="Assets\HomePage\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Assets\HomePage\GuiMail\NewOrder.html" />
     <Content Include="Assets\HomePage\images\404\404.png" />
     <Content Include="Assets\HomePage\images\blog\blog-one.jpg" />
     <Content Include="Assets\HomePage\images\blog\blog-three.jpg" />
@@ -1609,6 +1614,9 @@
     <Content Include="Views\User\Register.cshtml" />
     <Content Include="Views\User\Login.cshtml" />
     <Content Include="Views\Shared\TopMenu.cshtml" />
+    <Content Include="Views\Product\Detail.cshtml" />
+    <Content Include="Views\Product\Search.cshtml" />
+    <Content Include="Views\Shared\HeaderCart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
