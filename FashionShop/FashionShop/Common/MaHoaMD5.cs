@@ -13,11 +13,18 @@ namespace FashionShop.Common
         {
             StringBuilder hash = new StringBuilder();
             MD5CryptoServiceProvider md5provider = new MD5CryptoServiceProvider();
-            byte[] bytes = md5provider.ComputeHash(new UTF8Encoding().GetBytes(input));
-
-            for (int i = 0; i < bytes.Length; i++)
+            try
             {
-                hash.Append(bytes[i].ToString("x2"));
+                byte[] bytes = md5provider.ComputeHash(new UTF8Encoding().GetBytes(input));
+
+                for (int i = 0; i < bytes.Length; i++)
+                {
+                    hash.Append(bytes[i].ToString("x2"));
+                }
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
             }
             return hash.ToString();
         }
